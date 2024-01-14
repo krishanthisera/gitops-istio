@@ -76,6 +76,7 @@ flux bootstrap git \
   --author-email=<YOUR-EMAIL> \
   --url=ssh://git@github.com/<YOUR-USERNAME>/gitops-istio \
   --branch=main \
+  --private-key-file=</path/to/private.key>
   --path=clusters/my-cluster
 ```
 
